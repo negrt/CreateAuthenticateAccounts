@@ -6,21 +6,13 @@ Two Perl scripts. The first script handles account creation. The second script a
 * How to retrieve data from files with perl language
 
 
-# Expected Result
-Tims-MBP:~ timmac$ cd desktop
-Tims-MBP:desktop timmac$ cd Accounts
-Tims-MBP:Accounts timmac$ perl CreateAccount.pl
-Enter username: MyCoolUserName
-Enter password: secret
+# Description and Images
+First run the CreateAccount.pl file. Type in a username and password. This will create a file with the username and a hash password. Next, run the AuthenticateAccount.pl file. Type is the username and password. Entering in the correct information will print Access Granted. 
 
+# Images
 
-Press enter to continue... 
-Tims-MBP:Accounts timmac$ perl AuthenticateAccount.pl
+#### Account Created : Successfully Authenticated
+![Image of Create Account](https://github.com/negrt/cv/blob/master/images/AccountsCreate.png?raw=true)
 
-Enter username: MyCoolUserName
-Enter password: secret
-
-Access Granted
-
-Press enter to continue... 
-
+#### Account Created : Wrong Password Entered : Access Denied
+![Image of Create Account Wrong password](https://github.com/negrt/cv/blob/master/images/AccountsCreateWrong.png?raw=true)
