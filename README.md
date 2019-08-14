@@ -7,7 +7,7 @@ Two Perl scripts. The first script handles account creation. The second script a
 
 
 # Description and Images
-First run the CreateAccount.pl file. Type in a username and password. This will create a file with the username and a hash password. Next, run the AuthenticateAccount.pl file. Type is the username and password. Entering in the correct information will print Access Granted. 
+First run the CreateAccount.pl file. Type in a username and password. This will create a file with the username and a hash password. Next, run the AuthenticateAccount.pl file. Type is the username and password. Entering the correct information will print Access Granted. Entering the wrong information will print Access Denied.
 
 ## Images
 
