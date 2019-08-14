@@ -9,7 +9,7 @@ Two Perl scripts. The first script handles account creation. The second script a
 # Description and Images
 First run the CreateAccount.pl file. Type in a username and password. This will create a file with the username and a hash password. Next, run the AuthenticateAccount.pl file. Type is the username and password. Entering in the correct information will print Access Granted. 
 
-# Images
+## Images
 
 #### Account Created : Successfully Authenticated
 ![Image of Create Account](https://github.com/negrt/cv/blob/master/images/AccountsCreate.png?raw=true)
